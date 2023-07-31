@@ -29,6 +29,8 @@ resource "google_compute_instance" "demo" {
     network = "default"
 
     access_config {
+
+}
       // Ephemeral IP
     }
   }
