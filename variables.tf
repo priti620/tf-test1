@@ -1,6 +1,6 @@
 variable "gcp_project" {
   description = "GCP project name"
-  default     = "anthos-installation"
+  default     = "terraform-assignment-393108"
 }
 
 variable "gcp_region" {
