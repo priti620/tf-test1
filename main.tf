@@ -9,7 +9,7 @@ terraform {
 }
 provider "google" {
   # Configuration options
-  project = "terraform-assignment-393108"
+  project = "anthos-installation"
   region  = "us-west1"
   zone    = "us-west1-a"
   credentials  ="keys.json"
