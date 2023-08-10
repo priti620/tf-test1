@@ -26,7 +26,7 @@ resource "google_compute_instance" "demo" {
   }
 
   network_interface {
-    network = "vpc-tfe"
+    network = "default"
 
     access_config {
 
